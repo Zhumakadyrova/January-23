@@ -13,3 +13,4 @@ let pricePerKg = 499;
 let total1 = 499*12;
 
 console.log ("price = " + total1)
+let a = 5,
