@@ -94,3 +94,22 @@ function getInch(i) {
 } 
 let example5 = getInch(30);
 console.log(example5);
+
+
+// ROUND/ Series
+
+
+
+let i = 1;
+console.log(i);
+i = 2; 
+console.log(i);
+
+i = i + 1;
+console.log(i);
+
+i += 8;
+console.log(i);
+
+i++;
+console.log(i)
