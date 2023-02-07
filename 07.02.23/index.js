@@ -119,3 +119,17 @@ example4.forEach(function (name, i) {
 example5.forEach(function (city, i) {
   console.log(city.toUpperCase())
 })
+
+let example6 = ["I", "love", "Karakol"];
+let result = "";
+for (let i = 0; i , i < example6.length; i++) {
+  result = result + example6[i] + " ";
+}
+console.log(result);
+
+let example7 = [54, 11, 14, 21, 3, 110];
+let sum = 0;
+for (let i = 0; i < example7.length; i++) {
+  sum = sum + example7[i];
+}
+console.log(sum)
