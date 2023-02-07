@@ -97,3 +97,7 @@ for(let i in example4) {
   let name = example4[i];
   console.log("Hello my name is " + name);
 }
+
+example4.forEach(function (name, i) {
+  console.log("Hello... " + name);
+});
