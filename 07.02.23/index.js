@@ -64,7 +64,7 @@ console.log(example4);
 
 example4[0] = "Aichurok";
 console.log(example4);
-example4[1] = 1;
+example4[1] = "Azira";
 console.log(example4);
 console.log(example4.length);
 
@@ -97,7 +97,25 @@ for(let i in example4) {
   let name = example4[i];
   console.log("Hello my name is " + name);
 }
-
+// 4 type
 example4.forEach(function (name, i) {
   console.log("Hello... " + name);
 });
+// 5 type rounds
+//  while (example4.length > 0) {
+//   console.log(example4.pop());
+//  }
+
+console.log(example4)
+example4.forEach(function (name, i) {
+  console.log(" the length is " + name.length)
+})
+
+console.log(example4)
+example4.forEach(function (name, i) {
+  console.log(name.toUpperCase())
+})
+
+example5.forEach(function (city, i) {
+  console.log(city.toUpperCase())
+})
