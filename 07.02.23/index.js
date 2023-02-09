@@ -132,4 +132,61 @@ let sum = 0;
 for (let i = 0; i < example7.length; i++) {
   sum = sum + example7[i];
 }
-console.log(sum)
+console.log(sum);
+
+function getSum(a, b) {
+  console.log(a + b)
+}
+getSum(5, 6);
+
+function getNumber(a, b) {
+  console.log(a ** b)
+}
+getNumber(6, 2);
+
+function getDiv(a, b) {
+  console.log(a / b)
+}
+getDiv(100, 5);
+ function displayMessage() {
+  console.log("hello it's me.")
+ }
+ displayMessage();
+ function findSquare(num) {
+  return num*num
+ }
+ console.log(findSquare(5))
+
+ function findSquare(degree) {
+  return degree ** degree
+ }
+ console.log(findSquare(6));
+
+ function calFahrenheit(cel) {
+  return (cel*9/5)+32;
+ }
+ console.log(calFahrenheit(6))
+ console.log(calFahrenheit(8))
+
+ function rectangleArea (a, b) {
+  return "The area of rectangle is " + a * b
+ }
+ console.log(rectangleArea(10, 5))
+
+ function rectangleArea (a, b) {
+  return "The area of rectangle is " + a * b
+ }
+ console.log(rectangleArea(9))
+
+ function reverseNum(num) {
+  var reverse = 0;
+  while(num != 0)
+  {
+    reverse = reverse * 10;
+    reverse = reverse + num%10;
+    num = Math.trunc(num/10);
+  }
+  return reverse;
+ }
+
+ console.log(reverseNum(567))
