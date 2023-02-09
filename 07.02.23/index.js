@@ -122,7 +122,7 @@ example5.forEach(function (city, i) {
 
 let example6 = ["I", "love", "Karakol"];
 let result = "";
-for (let i = 0; i , i < example6.length; i++) {
+for (let i = 0; i < example6.length; i++) {
   result = result + example6[i] + " ";
 }
 console.log(result);

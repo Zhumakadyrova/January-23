@@ -32,7 +32,7 @@ for (let i =0; i <fruits.length; i ++) {
 let example = [50, 60, 40, 35];
 let sum = 0;
 for (let i = 0; i < example.length; i++) {
-  sum = sum + example[i];
+  sum = sum + example[i]; 150
 }
 console.log(sum);
 // ???? is not clear
@@ -60,3 +60,67 @@ function circleArea(d) {
   return "The circle area is " + p * r**2;
 }
 console.log(circleArea(10))
+
+function diamondArea(a) {
+  return "The perimeter of diamond is " + (a+a);
+}
+console.log(diamondArea(15));
+
+let example1 = [30, 50, 60, 40];
+let sum1 = 0;
+for (let i = 0; i < example1.length; i++) {
+  sum1 = sum1 + example1[i]; 
+}
+console.log(sum1);
+
+function sum2(a, b){
+  console.log (a + b)
+}
+sum2(8, 6);
+
+function sum3(a, b) {
+  console.log (a - b)
+}
+sum3(45, 15);
+
+function sum4(a, b){
+  console.log (a + b)
+}
+sum4(50, 45);
+
+function rectangleArea(a, b) {
+  return "Rectangle area is " + (a * b) + " m";
+
+}
+console.log(rectangleArea(5, 6));
+console.log(rectangleArea(15, 6));
+
+function rectangleArea(a, b) {
+  console.log ("Rectangle area is " + (a * b))
+}
+rectangleArea(10, 12);
+rectangleArea(15, 12);
+
+function number(a) { 
+  if (number % 2 === 0) {
+    console.log ("this number is even");
+  }
+  else if (number % 2 === 1) {
+    console.log ("this number is not even");
+  }
+  else {
+    console.log ("This is wrong command");
+  }
+}
+number(5);
+
+let num2 = 5;
+while(num2 <= 10 ) {
+  console.log(num2)
+  num2 ++
+}
+let num3 = 10;
+while(num3 >= -10) {
+  console.log(num3)
+  num3 --
+}
