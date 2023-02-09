@@ -20,3 +20,5 @@ console.log(fruits);
 fruits.unshift("appricote");
 console.log(fruits);
 
+fruits[0] = "melon";
+console.log(fruits);
