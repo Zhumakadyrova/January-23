@@ -102,4 +102,4 @@ function pov(x, n) {
   return x * n
 }
 console.log(pov(5, 50));
-console.log(pov())
+console.log(pov());
