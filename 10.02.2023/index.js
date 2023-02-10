@@ -58,3 +58,19 @@ number(50);
 number(20);
 number(15);
 number(40.2);
+
+function countUp(a, b) {
+  for (let i =a; i<=b; i++) {
+    console.log(i)
+  }
+}
+countUp(10, 15);
+countUp(20, 25);
+
+function countDown(a, b) {
+  for (let i = a; i >= b; i--) {
+    console.log(i)
+  }
+}
+countDown(25, 20);
+countDown(35,31);
