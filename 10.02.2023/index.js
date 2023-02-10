@@ -44,3 +44,17 @@ function numbers(a, b) {
 
 numbers(5, 6);
 numbers(6, 10);
+
+function number(a) {
+  if( a % 2 ===0) { console.log(a + " is even number.")}
+  else if(a % 2 !==0) { console.log(a + " is odd number.")}
+  else {
+    console.log("This is not a number")
+  }
+}
+number(125);
+number(100);
+number(50);
+number(20);
+number(15);
+number(40.2);
