@@ -74,3 +74,32 @@ function countDown(a, b) {
 }
 countDown(25, 20);
 countDown(35,31);
+
+function checkAge(age) {
+  if (age >= 18) {
+    console.log("Congradulation you are allowed to visit this website")
+  }
+  else if (age < 18) {
+    console.log("Sorry, you can't enter further to the web")
+  }
+  else {
+    console.log("Wrong command")
+  }
+}
+
+checkAge(15);
+checkAge(18);
+checkAge(23);
+
+function min(a, b) {
+  return  " The sum of numbers " + a + " and " +  b + " are equal to " + (a + b)
+}
+console.log(min(10, 15));
+console.log(min(1169, 2698));
+console.log(min(2352, 1586));
+
+function pov(x, n) {
+  return x * n
+}
+console.log(pov(5, 50));
+console.log(pov())
